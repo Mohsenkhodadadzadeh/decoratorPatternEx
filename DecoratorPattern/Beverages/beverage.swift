@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  beverage.swift
 //  DecoratorPattern
 //
 //  Created by mohsen khodadadzadeh on 7/28/18.
@@ -8,6 +8,7 @@
 
 import Foundation
 
-
-let b : Beverage = caramel(beverage: espresso())
-print(b.cost())
+class Beverage {
+    public func cost() ->Int { return 0}
+    
+}

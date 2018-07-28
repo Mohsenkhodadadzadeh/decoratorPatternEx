@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Espresso.swift
 //  DecoratorPattern
 //
 //  Created by mohsen khodadadzadeh on 7/28/18.
@@ -8,6 +8,8 @@
 
 import Foundation
 
-
-let b : Beverage = caramel(beverage: espresso())
-print(b.cost())
+class espresso: Beverage {
+    override func cost() -> Int {
+        return 1
+    }
+}

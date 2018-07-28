@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0824D814210CCACF00EA251A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D813210CCACF00EA251A /* main.swift */; };
+		0824D81C210CCAFC00EA251A /* beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D81B210CCAFC00EA251A /* beverage.swift */; };
+		0824D81E210CCC0200EA251A /* addonDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D81D210CCC0200EA251A /* addonDecorator.swift */; };
+		0824D823210CCC9100EA251A /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D822210CCC9100EA251A /* Espresso.swift */; };
+		0824D825210CCCCE00EA251A /* caramel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D824210CCCCE00EA251A /* caramel.swift */; };
+		0824D827210CCD9E00EA251A /* Soy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D826210CCD9E00EA251A /* Soy.swift */; };
+		0824D829210CCDEF00EA251A /* decof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824D828210CCDEF00EA251A /* decof.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		0824D810210CCACF00EA251A /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		0824D813210CCACF00EA251A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0824D81B210CCAFC00EA251A /* beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beverage.swift; sourceTree = "<group>"; };
+		0824D81D210CCC0200EA251A /* addonDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addonDecorator.swift; sourceTree = "<group>"; };
+		0824D822210CCC9100EA251A /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
+		0824D824210CCCCE00EA251A /* caramel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caramel.swift; sourceTree = "<group>"; };
+		0824D826210CCD9E00EA251A /* Soy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soy.swift; sourceTree = "<group>"; };
+		0824D828210CCDEF00EA251A /* decof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decof.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,31 @@
 		0824D812210CCACF00EA251A /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0824D821210CCC7800EA251A /* Addon */,
+				0824D81A210CCADA00EA251A /* Beverages */,
 				0824D813210CCACF00EA251A /* main.swift */,
 			);
 			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		0824D81A210CCADA00EA251A /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				0824D81B210CCAFC00EA251A /* beverage.swift */,
+				0824D822210CCC9100EA251A /* Espresso.swift */,
+				0824D828210CCDEF00EA251A /* decof.swift */,
+			);
+			path = Beverages;
+			sourceTree = "<group>";
+		};
+		0824D821210CCC7800EA251A /* Addon */ = {
+			isa = PBXGroup;
+			children = (
+				0824D81D210CCC0200EA251A /* addonDecorator.swift */,
+				0824D824210CCCCE00EA251A /* caramel.swift */,
+				0824D826210CCD9E00EA251A /* Soy.swift */,
+			);
+			path = Addon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0824D81E210CCC0200EA251A /* addonDecorator.swift in Sources */,
+				0824D823210CCC9100EA251A /* Espresso.swift in Sources */,
+				0824D81C210CCAFC00EA251A /* beverage.swift in Sources */,
+				0824D825210CCCCE00EA251A /* caramel.swift in Sources */,
 				0824D814210CCACF00EA251A /* main.swift in Sources */,
+				0824D827210CCD9E00EA251A /* Soy.swift in Sources */,
+				0824D829210CCDEF00EA251A /* decof.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
